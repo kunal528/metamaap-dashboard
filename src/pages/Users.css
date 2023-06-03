@@ -1,0 +1,16 @@
+
+.add-button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background-color: #1a8863;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-button {
+    width: 20px;
+    height: 20px;
+}

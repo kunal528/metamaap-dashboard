@@ -1,0 +1,66 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 80px;
+    background-color: black;
+    color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    height: 70px;
+    width: 70px;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    gap: 0 1rem;
+}
+
+.navbar-menu-item {
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.admin-profile {
+    height: 50px;
+    width: 50px;
+    color: white;
+    background: linear-gradient(rgb(14, 44, 78),rgb(26, 136, 99));
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logout-button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 6px 15px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}

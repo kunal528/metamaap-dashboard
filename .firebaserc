@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "metaverse-council"
+  },
+  "targets": {
+    "metaverse-council": {
+      "hosting": {
+        "admin": [
+          "admin-metamaap"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
